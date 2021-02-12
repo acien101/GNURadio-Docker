@@ -9,7 +9,7 @@ Simple docker for running GNURadio.
 ## Running GNURadio from x11docker
 
 ```
-$ x11docker --hostnet --dbus --pulseaudio -- "-v $(pwd):/src" gnuradio
+$ x11docker --hostnet --dbus --pulseaudio -- "-v $(pwd):/src" acien101/gnuradio
 ```
 
 Where the arguments:
